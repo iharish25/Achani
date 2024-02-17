@@ -1,48 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achani</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-        .construction-container {
-            text-align: center;
-        }
-
-        .construction-icon {
-            font-size: 50px;
-            color: #e74c3c;
-        }
-
-        .construction-text {
-            font-size: 24px;
-            color: #333;
-            margin-top: 20px;
-        }
-
-        .construction-message {
-            font-size: 18px;
-            color: #555;
-            margin-top: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <title>Poonjeri to Uthandi highway</title>
 </head>
+  <style>
+    /* Style for the alert container */
+    .alert {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: #f44336; /* Red background */
+      color: white;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    /* Animation for scrolling text */
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Apply animation to the alert text */
+    .alert-text {
+      animation: scroll 20s linear infinite; /* Adjust the duration as needed */
+      display: inline-block;
+    }
+  </style>
 <body>
-    <div class="construction-container">
-        <div class="construction-icon">&#x1F6A7;</div>
-        <div class="construction-text">Under Construction</div>
-        <div class="construction-message">We're working hard to bring you something amazing. Stay tuned!</div>
+<div class="alert">
+  <span class="alert-text">Welcome to poonjeri to uthandi highway! &nbsp;&nbsp;&nbsp;&nbsp; This is your scrolling alert notification. &nbsp;&nbsp;&nbsp;&nbsp; Please pay attention to this message.&nbsp;&nbsp;&nbsp;&nbsp; This is a demo portal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+</div>
+
+<body>
+  <!-- Header and Nav -->
+  <header>
+    <nav>
+      <div class="main">
+        
+        <ul class="main-list">
+          <li class="active main-list-item"><a href="index.html">Home</a></li>
+          <li class="main-list-item"><a href="famousplaces.html">Famous Places</a></li>
+          <li class="main-list-item"><a href="restaurants.html">Restaurants</a></li>
+          <li class="main-list-item"><a href="stops.html">Bus Stops</a></li>
+          <li class="main-list-item"><a href="hospitals.html">Hospitals</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- // Header and Nav -->
+
+    <!-- Title heading -->
+    <div class="title">
+      <span class="heading">Poonjeri to Uthandi highway</span>
     </div>
+  </header>
+  <!-- // Title heading -->
+
+  <!-- History section -->
+  <div class="page-wrapper">
+    <main>
+      <section>
+        <div class="page-wrapper">
+          <div class="history">
+            <h1 class="history-heading1">History of Mamallapuram</h1>
+            <span class="history-caption">"Mamallapuram, also known as Mahabalipuram, is a town in Chengalpattu district in the southeastern Indian state of Tamil Nadu, best known for the UNESCO World Heritage Site of 7th- and 8th-century Hindu Group of Monuments at Mahabalipuram."</span>
+            <hr />
+
+            <!-- Etymology -->
+            <h3 class="history-heading2">Etymology</h3>
+            <p class="history-para">
+              The town was originally called Mamallai or Kadalmallai.Mamallapuram has its origins in the word ‘Mamallan’, the title bestowed on Narasimhavarman II, the great king of the Pallava dynasty that existed between the 3rd and the 9th century. ‘Mamallan’ means ‘great wrestler’.
+            </p>
+            <!-- // Etymology -->
+            <!-- Demography -->
+            <h3 class="history-heading2">Demography</h3>
+            <p class="history-para">
+              The Mamallapuram Town Panchayat has population of 15,172 of which 8,036 are males while 7,136 are females as per report released by Census India 2011.
+            </p>
+            <!-- // Demography -->
+            <!-- History and Administration -->
+            <h3 class="history-heading2">History and Administration</h3>
+            <p class="history-para">
+Mamallapuram is a Town Panchayat city in district of Kancheepuram, Tamil Nadu. The Mamallapuram city is divided into 15 wards for which elections are held every 5 years. Below mentioned are the top spots at Mamallapuram.
+
+            </p>
+            <!-- // History and Administration -->
+            <!-- Famous Things -->
+            <h3 class="history-heading2">Famous Spots</h3>
+            <p class="history-para">This famous spots at mamallapuram are <strong>India Seashell Museum</strong>,
+              <strong>Descent of the Ganges</strong>,<strong> Varaha Cave Temple</strong> and <strong>Tiger Cave</strong>.</p>
+              <ul class="history-list">
+             <li> <a href="https://en.wikipedia.org/wiki/Krishna's_Butterball" target="_blank"> Krishna's Butterball</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Shore_Temple" target="_blank">Shore Temple</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Pancha_Rathas" target="_blank">Pancha Rathas</a></li>
+              </ul>
+
+            <!-- Image Gallery -->
+            <div class="row">
+              <div class="column">
+                <img src="images/halawork.jpg">
+
+              </div>
+              <div class="column">
+                <img src="images/halawork2.jpg">
+
+
+              </div>
+              <div class="column">
+                <img src="images/halawork3.jpg">
+              </div>
+              <div class="column">
+                <img src="images/halawork4.jpg">
+
+              </div>
+
+            </div>
+
+
+            <!-- // Famous Things -->
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- // History section -->
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h1 class="logo-text">
+          <span class="logo-span">S</span>mart
+          <span class="logo-span">H</span>ighway
+        </h1>
+        <p class="footer-para">
+          Making mobility faster & safer
+        </p>
+        <div class="contact">
+          <span><i class="fas fa-phone"></i>&nbsp; +91 XXXXX 46581</span>
+          <span
+            ><i class="fas fa-envelope"></i>&nbsp;
+            abc@gmail.com</span
+          >
+        </div>
+        <div class="socials">
+          <a href="https://github.com/iharish25" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; | Smart Highway
+    </div>
+  </div>
+</footer>
+<!-- // Footer -->
 </body>
+
 </html>
