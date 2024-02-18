@@ -185,4 +185,66 @@ chatbotId="MvPkN1mGj7-Xn5F3u25oy"
 domain="www.chatbase.co"
 defer>
 </script>
+    <style>
+    /* Style for the overlay */
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+    }
+
+    /* Style for the image */
+    #image {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
+    /* Style for the close button */
+    #closeButton {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<!-- The overlay containing the image and close button -->
+<div id="overlay">
+  <span id="closeButton" onclick="hideImage()">&#10006;</span>
+  <img id="image" src="price.jpg" alt="Displayed Image">
+</div>
+
+<!-- Your webpage content goes here -->
+<h1>Welcome to My Webpage!</h1>
+<p>This is your webpage content.</p>
+
+<!-- JavaScript to show and hide the overlay -->
+<script>
+  // Function to show the overlay with the image
+  function showImage() {
+    document.getElementById("overlay").style.display = "flex";
+  }
+
+  // Function to hide the overlay
+  function hideImage() {
+    document.getElementById("overlay").style.display = "none";
+    // Close the webpage
+    window.close();
+  }
+
+  // Call showImage() when the page loads
+  window.onload = showImage;
+</script>
+
 </html>
